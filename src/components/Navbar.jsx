@@ -1,9 +1,11 @@
 import React from 'react'
+import './navbar.css'
 import Brendim from './assets/svg/logo.svg'
 const Navbar = () => {
   return (
-    <div><nav className="navbar navbar-expand-lg bg-body-tertiary">
-    <div className="container-fluid">
+    <>
+    <nav className="navbar navbar-gradient navbar-expand-lg bg-body-tertiary">
+    <div className="container">
       <a className="navbar-brand" href="#"> <img src={Brendim} alt="" /></a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -11,19 +13,20 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav me-5">
           <li className="nav-item">
-            <a className="nav-link " aria-current="page" href="#">İndex</a>
+            <a className="nav-link " aria-current="page" href="#">Ana səhifə</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Kataloq</a>
+            <a className="nav-link" >Kataloq</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Xəbərlər</a>
+            <a className="nav-link" >Xəbərlər</a>
           </li>
           
         </ul>
       </div>
     </div>
-  </nav></div>
+  </nav>
+  </>
   )
 }
 

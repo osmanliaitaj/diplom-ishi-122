@@ -1,0 +1,14 @@
+.navbar-gradient {
+    /* background: rgb(107,99,74);
+    background: linear-gradient(90deg, rgba(107,99,74,1) 0%, rgba(36,71,59,1) 35%, rgba(10,61,53,1) 100%); */
+  background: transparent;
+  z-index: 999;
+} 
+
+.nav-item a{
+    text-align: center;
+    font-family: Mont;
+    font-size: 25px;
+    font-weight: 700;
+    color: white ;
+}
