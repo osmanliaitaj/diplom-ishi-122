@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Coment.css"
 import HandSome from './assets/svg/handsome.svg'
 
 const coment = () => {

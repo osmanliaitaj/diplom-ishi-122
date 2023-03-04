@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Blogs.css"
 const blogs = () => {
   return (
     <div className='blogs container'>

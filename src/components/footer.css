@@ -1,22 +1,22 @@
-footer{
+Footer{
     background: rgb(107,99,74);
     background: linear-gradient(90deg, rgba(107,99,74,1) 0%, rgba(36,71,59,1) 35%, rgba(10,61,53,1) 100%);
     display: flex;
 }
 
-.footerLeft .logo{
+.FooterLeft .logo{
     width: 155px;
 }
 
-.flexbox{
+.Flexbox{
     display: flex;
 }
 
-.footerRight{
+.FooterRight{
     display: flex;
 }
 
-.footerLeft a{
+.FooterLeft a{
     color: #fff;
 }
 

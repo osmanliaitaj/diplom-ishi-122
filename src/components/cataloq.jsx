@@ -1,5 +1,5 @@
 import React from 'react'
-import './cataloq.css'
+import './Cataloq.css'
 import Image12 from './assets/svg/image12.svg'
 import Image9 from './assets/svg/image9.svg'
 import Image10 from './assets/svg/image10.svg'
@@ -186,6 +186,7 @@ const cataloq = () => {
     <li class="page-item"><a class="page-link" href="#">1</a></li>
     <li class="page-item"><a class="page-link" href="#">2</a></li>
     <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
     <li class="page-item">
       <a class="page-link" href="#" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>

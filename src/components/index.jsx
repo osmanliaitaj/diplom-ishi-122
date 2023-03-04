@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import './Index.css'
 import BG from './assets/svg/BG.png'
 import Image25 from './assets/svg/image25.svg'
 import Image26 from './assets/svg/image26.svg'

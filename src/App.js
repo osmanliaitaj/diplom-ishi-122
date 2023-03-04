@@ -2,14 +2,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import 'bootstrap/dist/js/bootstrap'
 import Navbar from "./components/Navbar"
-import Index from "./components/index"
-import Blogs from './components/blogs'
-import Card from './components/card'
-import Sale from './components/sale'
-import Carousel from "./components/carousel"
-import Cataloq from "./components/cataloq"
-import News from "./components/news"
-import Footer from "./components/footer"
+import Index from "./components/Index"
+import Blogs from './components/Blogs'
+import Sale from './components/Sale'
+import Cataloq from "./components/Cataloq"
+import News from "./components/News"
+import Footer from "./components/Footer"
 
 
 // useEffect side effectleri
@@ -26,9 +24,7 @@ function App() {
     <Navbar />
     <Index />
     <Blogs/>
-    <Card/>
     <Sale/>
-    <Carousel/>
     <Cataloq />
     <News />
     <Footer />
